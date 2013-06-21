@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6993D08D16E8732F00057588 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6993D08B16E8732F00057588 /* 1.png */; };
+		6993D08E16E8732F00057588 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6993D08C16E8732F00057588 /* 2.png */; };
+		69A52F3116DF64FB005B0DA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A52F3016DF64FB005B0DA6 /* UIKit.framework */; };
+		69A52F3316DF64FB005B0DA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A52F3216DF64FB005B0DA6 /* Foundation.framework */; };
+		69A52F3516DF64FB005B0DA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A52F3416DF64FB005B0DA6 /* CoreGraphics.framework */; };
+		69A52F3B16DF64FB005B0DA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A52F3916DF64FB005B0DA6 /* InfoPlist.strings */; };
+		69A52F3D16DF64FB005B0DA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A52F3C16DF64FB005B0DA6 /* main.m */; };
+		69A52F4116DF64FB005B0DA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A52F4016DF64FB005B0DA6 /* AppDelegate.m */; };
+		69A52F4316DF64FB005B0DA6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A52F4216DF64FB005B0DA6 /* Default.png */; };
+		69A52F4516DF64FB005B0DA6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A52F4416DF64FB005B0DA6 /* Default@2x.png */; };
+		69A52F4716DF64FB005B0DA6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A52F4616DF64FB005B0DA6 /* Default-568h@2x.png */; };
+		69A52F4A16DF64FB005B0DA6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A52F4816DF64FB005B0DA6 /* MainStoryboard.storyboard */; };
+		69A52F4D16DF64FB005B0DA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A52F4C16DF64FB005B0DA6 /* ViewController.m */; };
+		69A52F5516DF6510005B0DA6 /* DoubleSidedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A52F5416DF6510005B0DA6 /* DoubleSidedView.m */; };
+		69A52F5716DF6581005B0DA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A52F5616DF6581005B0DA6 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6993D08B16E8732F00057588 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		6993D08C16E8732F00057588 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		69A52F2C16DF64FB005B0DA6 /* DoubleSidedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleSidedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A52F3016DF64FB005B0DA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69A52F3216DF64FB005B0DA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69A52F3416DF64FB005B0DA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69A52F3816DF64FB005B0DA6 /* DoubleSidedView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleSidedView-Info.plist"; sourceTree = "<group>"; };
+		69A52F3A16DF64FB005B0DA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69A52F3C16DF64FB005B0DA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69A52F3E16DF64FB005B0DA6 /* DoubleSidedView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubleSidedView-Prefix.pch"; sourceTree = "<group>"; };
+		69A52F3F16DF64FB005B0DA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69A52F4016DF64FB005B0DA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69A52F4216DF64FB005B0DA6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		69A52F4416DF64FB005B0DA6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		69A52F4616DF64FB005B0DA6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		69A52F4916DF64FB005B0DA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		69A52F4B16DF64FB005B0DA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69A52F4C16DF64FB005B0DA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69A52F5316DF6510005B0DA6 /* DoubleSidedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleSidedView.h; sourceTree = "<group>"; };
+		69A52F5416DF6510005B0DA6 /* DoubleSidedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleSidedView.m; sourceTree = "<group>"; };
+		69A52F5616DF6581005B0DA6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A52F2916DF64FB005B0DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A52F5716DF6581005B0DA6 /* QuartzCore.framework in Frameworks */,
+				69A52F3116DF64FB005B0DA6 /* UIKit.framework in Frameworks */,
+				69A52F3316DF64FB005B0DA6 /* Foundation.framework in Frameworks */,
+				69A52F3516DF64FB005B0DA6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69A52F2116DF64FB005B0DA6 = {
+			isa = PBXGroup;
+			children = (
+				69A52F3616DF64FB005B0DA6 /* DoubleSidedView */,
+				69A52F2F16DF64FB005B0DA6 /* Frameworks */,
+				69A52F2D16DF64FB005B0DA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69A52F2D16DF64FB005B0DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A52F2C16DF64FB005B0DA6 /* DoubleSidedView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A52F2F16DF64FB005B0DA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69A52F5616DF6581005B0DA6 /* QuartzCore.framework */,
+				69A52F3016DF64FB005B0DA6 /* UIKit.framework */,
+				69A52F3216DF64FB005B0DA6 /* Foundation.framework */,
+				69A52F3416DF64FB005B0DA6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69A52F3616DF64FB005B0DA6 /* DoubleSidedView */ = {
+			isa = PBXGroup;
+			children = (
+				69A52F3F16DF64FB005B0DA6 /* AppDelegate.h */,
+				69A52F4016DF64FB005B0DA6 /* AppDelegate.m */,
+				69A52F4816DF64FB005B0DA6 /* MainStoryboard.storyboard */,
+				69A52F5316DF6510005B0DA6 /* DoubleSidedView.h */,
+				69A52F5416DF6510005B0DA6 /* DoubleSidedView.m */,
+				69A52F4B16DF64FB005B0DA6 /* ViewController.h */,
+				69A52F4C16DF64FB005B0DA6 /* ViewController.m */,
+				69A52F3716DF64FB005B0DA6 /* Supporting Files */,
+			);
+			path = DoubleSidedView;
+			sourceTree = "<group>";
+		};
+		69A52F3716DF64FB005B0DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6993D08B16E8732F00057588 /* 1.png */,
+				6993D08C16E8732F00057588 /* 2.png */,
+				69A52F3816DF64FB005B0DA6 /* DoubleSidedView-Info.plist */,
+				69A52F3916DF64FB005B0DA6 /* InfoPlist.strings */,
+				69A52F3C16DF64FB005B0DA6 /* main.m */,
+				69A52F3E16DF64FB005B0DA6 /* DoubleSidedView-Prefix.pch */,
+				69A52F4216DF64FB005B0DA6 /* Default.png */,
+				69A52F4416DF64FB005B0DA6 /* Default@2x.png */,
+				69A52F4616DF64FB005B0DA6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A52F2B16DF64FB005B0DA6 /* DoubleSidedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A52F5016DF64FB005B0DA6 /* Build configuration list for PBXNativeTarget "DoubleSidedView" */;
+			buildPhases = (
+				69A52F2816DF64FB005B0DA6 /* Sources */,
+				69A52F2916DF64FB005B0DA6 /* Frameworks */,
+				69A52F2A16DF64FB005B0DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleSidedView;
+			productName = DoubleSidedView;
+			productReference = 69A52F2C16DF64FB005B0DA6 /* DoubleSidedView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A52F2316DF64FB005B0DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "devmac46 ";
+			};
+			buildConfigurationList = 69A52F2616DF64FB005B0DA6 /* Build configuration list for PBXProject "DoubleSidedView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69A52F2116DF64FB005B0DA6;
+			productRefGroup = 69A52F2D16DF64FB005B0DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A52F2B16DF64FB005B0DA6 /* DoubleSidedView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A52F2A16DF64FB005B0DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A52F3B16DF64FB005B0DA6 /* InfoPlist.strings in Resources */,
+				69A52F4316DF64FB005B0DA6 /* Default.png in Resources */,
+				69A52F4516DF64FB005B0DA6 /* Default@2x.png in Resources */,
+				69A52F4716DF64FB005B0DA6 /* Default-568h@2x.png in Resources */,
+				69A52F4A16DF64FB005B0DA6 /* MainStoryboard.storyboard in Resources */,
+				6993D08D16E8732F00057588 /* 1.png in Resources */,
+				6993D08E16E8732F00057588 /* 2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A52F2816DF64FB005B0DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A52F3D16DF64FB005B0DA6 /* main.m in Sources */,
+				69A52F4116DF64FB005B0DA6 /* AppDelegate.m in Sources */,
+				69A52F4D16DF64FB005B0DA6 /* ViewController.m in Sources */,
+				69A52F5516DF6510005B0DA6 /* DoubleSidedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69A52F3916DF64FB005B0DA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A52F3A16DF64FB005B0DA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69A52F4816DF64FB005B0DA6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A52F4916DF64FB005B0DA6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69A52F4E16DF64FB005B0DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69A52F4F16DF64FB005B0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69A52F5116DF64FB005B0DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleSidedView/DoubleSidedView-Prefix.pch";
+				INFOPLIST_FILE = "DoubleSidedView/DoubleSidedView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69A52F5216DF64FB005B0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleSidedView/DoubleSidedView-Prefix.pch";
+				INFOPLIST_FILE = "DoubleSidedView/DoubleSidedView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A52F2616DF64FB005B0DA6 /* Build configuration list for PBXProject "DoubleSidedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A52F4E16DF64FB005B0DA6 /* Debug */,
+				69A52F4F16DF64FB005B0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A52F5016DF64FB005B0DA6 /* Build configuration list for PBXNativeTarget "DoubleSidedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A52F5116DF64FB005B0DA6 /* Debug */,
+				69A52F5216DF64FB005B0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69A52F2316DF64FB005B0DA6 /* Project object */;
+}
